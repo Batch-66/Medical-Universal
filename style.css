@@ -533,14 +533,14 @@ display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 100px 65px;
-    width: 500px;
+    width: 750px;
     height: 150px;
 }
 
 
 .sec-four-txt h6 {
     color: #FC724D;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     line-height: 24px;
     text-align: left;
@@ -551,7 +551,7 @@ display: flex;
 .sec-four-txt h2 {
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 50px;
     letter-spacing: 1px;
     padding: 5px;
@@ -560,7 +560,7 @@ display: flex;
 .sec-four-txt p {
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 20px;
     letter-spacing: 1px;
     color: #737373;
@@ -577,21 +577,20 @@ display: flex;
 }
 
 /*----------------------sec 4 card 1------------------*/
-.sec-four-card-one {
+.sec-four-card-one, .sec-four-card-two, .sec-four-card-three, .sec-four-card-four{
     position: relative;
 }
 
-.sec-four-card-one-img {
-    width: 240;
+.sec-four-card-one-img, .sec-four-card-two-img, .sec-four-card-three-img, .sec-four-card-four-img {
+    width: 240px;
     height: 300px;
-
 }
 
-.sec-four-card-one-img image {
+.sec-four-card-one-img image, .sec-four-card-two-img image, .sec-four-card-three-img image, .sec-four-card-four-img image {
     width: 100%;
 }
 
-.sec-four-card .sec-four-card-one .sale {
+.sec-four-card-one .sale, .sec-four-card-two .sale, .sec-four-card-three .sale, .sec-four-card-four .sale {
     position: absolute;
     top: 10px;
     left: 15px;
@@ -623,7 +622,7 @@ display: flex;
 
 .fisrturl {
     display: flex;
-    gap: 35px;
+    gap: 20px;
     justify-content: center;
     padding: 10px;
     margin-top: 7px;
@@ -633,17 +632,21 @@ display: flex;
 .sec-four-card-one-txt .fisrturl-url a {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 24px;
     color: #FC724D;
     text-decoration: none;
+    width: 154px;
+    height: 124px;
 }
 
 .sec-four-card-one-txt .fisrturl-icon {
-    padding: 6px;
+    padding: 5px;
+    width: 60px;
+    height: 30px;
     background-color: #26335D;
     color: #fff;
-    border-radius: 35px;
+    border-radius: 15px;
     align-items: center;
 }
 
@@ -748,7 +751,7 @@ display: flex;
     text-decoration: none;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 24px;
     color: #FC724D;
 }
@@ -1451,7 +1454,7 @@ display: flex;
 }
 
 .sec-six-cards .card-one-txt p {
-    font-size: 0, 6em;
+    font-size: 0.6em;
     padding: 15px 0;
 }
 
@@ -1467,7 +1470,6 @@ display: flex;
 .sec-seven-container {
     width: 100%;
     position: relative;
-    background-color: aqua;
     background-size: cover;
     padding: 100px 0;
 
@@ -1476,10 +1478,11 @@ display: flex;
 
 .sec-seven-txt {
     text-align: center;
-
-
 }
-
+.sec-seven-txt p {
+    width: 469px;
+    font-size: 14px;
+}
 .box-color {
     color: rgb(227, 92, 43);
     line-height: 20px;
@@ -1510,10 +1513,11 @@ display: flex;
 }
 
 .sec-seven-form {
-    /* width: 500px; */
+    width: 700px;
     margin-top: 30px;
     display: flex;
     justify-content: center;
+    margin: auto;
 }
 
 .sec-seven-form form {
@@ -1529,25 +1533,24 @@ form {
 
 .search {
     border: 1px solid #E6E6E6;
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
     width: 100%;
     height: 58px;
-
+    padding-left: 10px;
 }
 
 .btn {
     position: absolute;
     top: 0;
     right: 0;
-    width: 72px;
-    height: 60px;
+    width: 117px;
+    height: 58px;
     background: #FC724D;
     border: 1px solid #E6E6E6;
     border-radius: 0px 5px 5px 0px;
     box-sizing: border-box;
     color: #E6E6E6;
-    border-top-right-radius: none;
-    border-bottom-right-radius: none;
+    padding: 0 20px;
 }
 
 /*-----------------------end sec 7----------------*/
