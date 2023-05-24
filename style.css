@@ -104,6 +104,7 @@ header::after {
     line-height: 22px;
     letter-spacing: 0.2px;
     text-transform: capitalize;
+    cursor: pointer;
 }
 
 .right-2 a {
@@ -117,6 +118,7 @@ header::after {
     border-radius: 7px;
     background-color: #FC724D;
     padding: 15px 25px;
+    cursor: pointer;
 }
 
 .right-2 i {
@@ -178,6 +180,7 @@ header::after {
     padding: 15px 40px;
     border: none;
     border-radius: 7px;
+    cursor: pointer;
 }
 
 .btn-learn {
@@ -193,6 +196,7 @@ header::after {
     border: 2px solid #FC724D;
     border-radius: 7px;
     background: transparent;
+    cursor: pointer;
 }
 
 /*------------end header------------------*/
@@ -1105,6 +1109,7 @@ header::after {
     box-sizing: border-box;
     color: #E6E6E6;
     padding: 0 20px;
+    cursor: pointer;
 }
 
 /*-----------------------end sec 7----------------*/
