@@ -202,17 +202,17 @@ header::after {
 .sec-one {
     width: 100%;
     height: 700px;
-    background-color: #bdbdbd24;
+   /* background-color: #bdbdbd24;*/
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.sec-one-container{
+.sec-one-container {
     width: 1100px;
-    height: 700px; 
-    
+    height: 700px;
+
 }
 
 .sec-one-txt {
@@ -242,9 +242,9 @@ header::after {
 .sec-one-card-container {
     height: 500px;
     display: flex;
-    justify-content :space-around;
+    justify-content: space-around;
     align-items: center;
-    gap : 20px;
+    gap: 20px;
 }
 
 .sec-one-card {
@@ -255,22 +255,22 @@ header::after {
 
 
 .sec-one-card:nth-child(3) {
-    background-color:#FC724D;
+    background-color: #FC724D;
     height: 300px;
     color: #FFFF;
     font-size: 15px;
 }
 
-.sec-one-card img{
+.sec-one-card img {
     margin: 20px 20px 0;
 }
 
-.sec-one-card h5{
+.sec-one-card h5 {
     margin: 10px 20px 10px;
     font-size: 16px;
 }
 
-.sec-one .divider{
+.sec-one .divider {
     background-color: #FC724D;
     width: 30px;
     height: 2px;
@@ -284,24 +284,25 @@ header::after {
     margin: 10px 20px 10px;
 }
 
-.sec-one-card p:not(p.third-card){
+.sec-one-card p:not(p.third-card) {
     margin: 15px 20px 10px;
     font-size: 14px;
     color: #737373;
 }
 
-.sec-one-card p.third-card{
-    color:#FFFF;
+.sec-one-card p.third-card {
+    color: #FFFF;
     margin: 10px 20px 10px;
     font-size: 14px;
 }
 
 /*---------------End of section 1-----------------*/
+
 /*----------------sec2-------------*/
 .sec-two {
     width: 100%;
     height: 700px;
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     display: flex;
     align-items: center;
 }
@@ -383,21 +384,23 @@ header::after {
 .sec-two .sec-two-container .sec-two-video .sec-two-video-image {
     border-radius: 20px;
 }
-.sec-two-video{
-    position: relative;}
 
-.sec-two-video .sec-two-play{
-    width:70px;
-    height: 70px; 
-     position: absolute;
-     background: #E74040;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     border-radius:50% ;
-     z-index: 1;
-     top: 150px;
-     right: 221px;
+.sec-two-video {
+    position: relative;
+}
+
+.sec-two-video .sec-two-play {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background: #E74040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    z-index: 1;
+    top: 150px;
+    right: 221px;
 }
 
 
@@ -483,8 +486,8 @@ header::after {
     margin-bottom: 35px;
 }
 
-.sec-three-container .sec-three-txt .url{
-display: flex;
+.sec-three-container .sec-three-txt .url {
+    display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
@@ -519,12 +522,12 @@ display: flex;
 .sec-four-container {
     display: flex;
     flex-direction: column;
-    padding: 50px auto;
+    padding: 0px auto;
     gap: 112px;
     position: absolute;
     width: 1200px;
-    height: 1096px;
-    background-color: beige;
+    height: 900px;
+    /*background-color: beige;*/
 
 }
 
@@ -532,7 +535,7 @@ display: flex;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 100px 65px;
+    padding: 10px 65px 100px;
     width: 750px;
     height: 150px;
 }
@@ -576,21 +579,34 @@ display: flex;
     height: 626px;
 }
 
-/*----------------------sec 4 card 1------------------*/
-.sec-four-card-one, .sec-four-card-two, .sec-four-card-three, .sec-four-card-four{
+/*----------------------sec 4 card 1/2/3/4------------------*/
+.sec-four-card-one,
+.sec-four-card-two,
+.sec-four-card-tree,
+.sec-four-card-four {
     position: relative;
 }
 
-.sec-four-card-one-img, .sec-four-card-two-img, .sec-four-card-three-img, .sec-four-card-four-img {
+.sec-four-card-one-img,
+.sec-four-card-two-img,
+.sec-four-card-tree-img,
+.sec-four-card-four-img {
     width: 240px;
     height: 300px;
 }
 
-.sec-four-card-one-img image, .sec-four-card-two-img image, .sec-four-card-three-img image, .sec-four-card-four-img image {
+.sec-four-card-one-img image,
+.sec-four-card-two-img image,
+.sec-four-card-tree-img image,
+.sec-four-card-four-img image {
     width: 100%;
 }
 
-.sec-four-card-one .sale, .sec-four-card-two .sale, .sec-four-card-three .sale, .sec-four-card-four .sale {
+.sec-four-card-one .sale,
+.sec-four-card-two .sale,
+.sec-four-card-tree .sale,
+.sec-four-card-four .sale 
+{
     position: absolute;
     top: 10px;
     left: 15px;
@@ -601,8 +617,11 @@ display: flex;
     border-radius: 7px;
 }
 
-
-.sec-four-card .sec-four-card-one .icons {
+.sec-four-card-one .icons,
+.sec-four-card-two .icons,
+.sec-four-card-tree .icons,
+.sec-four-card-four .icons 
+{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -614,13 +633,20 @@ display: flex;
     z-index: 1;
 }
 
-.sec-four-card .sec-four-card-one .icons .i-icons {
+.sec-four-card-one .icons .i-icons,
+.sec-four-card-two .icons .i-icons,
+.sec-four-card-tree .icons .i-icons,
+.sec-four-card-four .icons .i-icons 
+{
     background: #FFFFFF;
     border-radius: 50px;
     padding: 6px;
 }
 
-.fisrturl {
+.sec-four-card-one .fisrturl,
+.sec-four-card-two .fisrturl,
+.sec-four-card-tree .fisrturl,
+.sec-four-card-four .fisrturl {
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -629,7 +655,10 @@ display: flex;
     align-items: center;
 }
 
-.sec-four-card-one-txt .fisrturl-url a {
+.sec-four-card-one-txt .fisrturl-url a,
+.sec-four-card-two-txt .fisrturl-url a,
+.sec-four-card-tree-txt .fisrturl-url a,
+.sec-four-card-four-txt .fisrturl-url a {
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -640,7 +669,11 @@ display: flex;
     height: 124px;
 }
 
-.sec-four-card-one-txt .fisrturl-icon {
+.sec-four-card-one-txt .fisrturl-icon,
+.sec-four-card-two-txt .fisrturl-icon,
+.sec-four-card-tree-txt .fisrturl-icon,
+.sec-four-card-four-txt .fisrturl-icon 
+{
     padding: 5px;
     width: 60px;
     height: 30px;
@@ -650,13 +683,21 @@ display: flex;
     align-items: center;
 }
 
-.sec-four-card-one-txt .fisrturl-txt {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
+.sec-four-card-one-txt .fisrturl-txt,
+.sec-four-card-two-txt .fisrturl-txt,
+.sec-four-card-tree-txt .fisrturl-txt,
+.sec-four-card-four-txt .fisrturl-txt,
+{
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
 }
 
-.sec-four-card-one-txt .fisrturl-txt h5 {
+.sec-four-card-one-txt .fisrturl-txt h5, 
+.sec-four-card-two-txt .fisrturl-txt h5,
+.sec-four-card-tree-txt .fisrturl-txt h5,
+.sec-four-card-four-txt .fisrturl-txt h5
+{
     width: 131px;
     height: 48px;
     font-style: normal;
@@ -667,7 +708,11 @@ display: flex;
     margin-left: 15px;
 }
 
-.sec-four-card-one-txt .fisrturl-txt p {
+.sec-four-card-one-txt .fisrturl-txt p,
+.sec-four-card-two-txt .fisrturl-txt p,
+.sec-four-card-tree-txt .fisrturl-txt p,
+.sec-four-card-four-txt .fisrturl-txt p
+{
     width: 182px;
     height: 40px;
     font-style: normal;
@@ -680,7 +725,11 @@ display: flex;
     margin-left: 15px;
 }
 
-.sec-four-card-one-txt .fisrturl-2nd-icon {
+.sec-four-card-one-txt .fisrturl-2nd-icon,
+.sec-four-card-two-txt .fisrturl-2nd-icon,
+.sec-four-card-tree-txt .fisrturl-2nd-icon,
+.sec-four-card-four-txt .fisrturl-2nd-icon 
+{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -689,7 +738,11 @@ display: flex;
     margin-left: 15px;
 }
 
-.sec-four-card-one-txt .fisrturl-2nd-icon h6 {
+.sec-four-card-one-txt .fisrturl-2nd-icon h6,
+.sec-four-card-two-txt .fisrturl-2nd-icon h6,
+.sec-four-card-tree-txt .fisrturl-2nd-icon h6,
+.sec-four-card-four-txt .fisrturl-2nd-icon h6 
+{
     width: 57px;
     height: 24px;
     font-style: normal;
@@ -699,7 +752,11 @@ display: flex;
     color: #737373;
 }
 
-.sec-four-card-one-txt .fisrturl-price {
+.sec-four-card-one-txt .fisrturl-price,
+.sec-four-card-two-txt .fisrturl-price,
+.sec-four-card-tree-txt .fisrturl-price,
+.sec-four-card-four-txt .fisrturl-price 
+{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -710,7 +767,11 @@ display: flex;
     padding-left: 15px;
 }
 
-.sec-four-card-one-txt .fisrturl-price .first-price {
+.sec-four-card-one-txt .fisrturl-price .first-price,
+.sec-four-card-two-txt .fisrturl-price .first-price,
+.sec-four-card-tree-txt .fisrturl-price .first-price,
+.sec-four-card-four-txt .fisrturl-price .first-price
+{
     width: 52px;
     height: 24px;
     font-style: normal;
@@ -721,7 +782,11 @@ display: flex;
     color: #BDBDBD;
 }
 
-.sec-four-card-one-txt .fisrturl-price .second-price {
+.sec-four-card-one-txt .fisrturl-price .second-price,
+.sec-four-card-two-txt .fisrturl-price .second-price,
+.sec-four-card-tree-txt .fisrturl-price .second-price,
+.sec-four-card-four-txt .fisrturl-price .second-price
+{
     width: 45px;
     height: 24px;
     font-style: normal;
@@ -732,7 +797,11 @@ display: flex;
     color: #0061FF;
 }
 
-.sec-four-card-one-txt .fisrturl-2nd-url {
+.sec-four-card-one-txt .fisrturl-2nd-url,
+.sec-four-card-two-txt .fisrturl-2nd-url,
+.sec-four-card-tree-txt .fisrturl-2nd-url,
+.sec-four-card-four-txt .fisrturl-2nd-url
+{
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -747,7 +816,11 @@ display: flex;
     margin-left: 10px;
 }
 
-.sec-four-card-one-txt .fisrturl-2nd-url a {
+.sec-four-card-one-txt .fisrturl-2nd-url a,
+.sec-four-card-two-txt .fisrturl-2nd-url a,
+.sec-four-card-tree-txt .fisrturl-2nd-url a,
+.sec-four-card-four-txt .fisrturl-2nd-url a
+{
     text-decoration: none;
     font-style: normal;
     font-weight: 700;
@@ -755,541 +828,20 @@ display: flex;
     line-height: 24px;
     color: #FC724D;
 }
-
-/*------------------sec4 card2 -------------*/
-.sec-four-card-two {
-    position: relative;
-}
-
-.sec-four-card-two-img {
-    width: 240;
-    height: 300px;
-
-}
-
-.sec-four-card-two-img image {
-    width: 100%;
-}
-
-.sec-four-card .sec-four-card-two .sale {
-    position: absolute;
-    top: 10px;
-    left: 15px;
-    z-index: 1;
-    padding: 7px 11px;
-    color: #fff;
-    background-color: #FC724D;
-    border-radius: 7px;
-}
-
-.sec-four-card .sec-four-card-two .icons {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    position: absolute;
-    gap: 18px;
-    top: 250px;
-    left: 58px;
-    z-index: 1;
-}
-
-.sec-four-card .sec-four-card-two .icons .i-icons {
-    background: #FFFFFF;
-    border-radius: 50px;
-    padding: 6px;
-}
-
-.sec-four-card .sec-four-card-two .sec-four-card-two-txt .fisrturl {
-    display: flex;
-    gap: 35px;
-    justify-content: center;
-    padding: 10px;
-    margin-top: 7px;
-    align-items: center;
-}
-
-.sec-four-card-two-txt .fisrturl-url a {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #FC724D;
-    text-decoration: none;
-}
-
-.sec-four-card-two-txt .fisrturl-icon {
-    padding: 6px;
-    background-color: #26335D;
-    color: #fff;
-    border-radius: 35px;
-    align-items: center;
-}
-
-.sec-four-card-two-txt .fisrturl-txt {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-}
-
-.sec-four-card-two-txt .fisrturl-txt h5 {
-    width: 131px;
-    height: 48px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    margin: 5px;
-    margin-left: 15px;
-}
-
-.sec-four-card-two-txt .fisrturl-txt p {
-    width: 182px;
-    height: 40px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-    color: #737373;
-    margin: 5px;
-    margin-left: 15px;
-}
-
-.sec-four-card-two-txt .fisrturl-2nd-icon {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 15px;
-    margin: 10px;
-    margin-left: 15px;
-}
-
-.sec-four-card-two-txt .fisrturl-2nd-icon h6 {
-    width: 57px;
-    height: 24px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #737373;
-}
-
-.sec-four-card-two-txt .fisrturl-price {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 5px 3px;
-    gap: 15px;
-    width: 108px;
-    height: 34px;
-    padding-left: 15px;
-}
-
-.sec-four-card-two-txt .fisrturl-price .first-price {
-    width: 52px;
-    height: 24px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #BDBDBD;
-}
-
-.sec-four-card-two-txt .fisrturl-price .second-price {
-    width: 45px;
-    height: 24px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #0061FF;
-}
-
-.sec-four-card-two-txt .fisrturl-2nd-url {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px 20px;
-    gap: 15px;
-    width: 142px;
-    height: 44px;
-    border: 1px solid #FC724D;
-    border-radius: 37px;
-    margin: 10px;
-    margin-left: 10px;
-}
-
-.sec-four-card-two-txt .fisrturl-2nd-url a {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #FC724D;
-}
-
-/*---------------------sec 4 card 3------------------*/
-.sec-four-card-tree {
-    position: relative;
-}
-
-.sec-four-card-tree-img {
-    width: 240;
-    height: 300px;
-
-}
-
-.sec-four-card-tree-img image {
-    width: 100%;
-}
-
-.sec-four-card .sec-four-card-tree .sale {
-    position: absolute;
-    top: 10px;
-    left: 15px;
-    z-index: 1;
-    padding: 7px 11px;
-    color: #fff;
-    background-color: #FC724D;
-    border-radius: 7px;
-}
-
-.sec-four-card .sec-four-card-tree .icons {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    position: absolute;
-    gap: 18px;
-    top: 250px;
-    left: 58px;
-    z-index: 1;
-}
-
-.sec-four-card .sec-four-card-tree .icons .i-icons {
-    background: #FFFFFF;
-    border-radius: 50px;
-    padding: 6px;
-}
-
-.sec-four-card .sec-four-card-tree .sec-four-card-tree-txt .fisrturl {
-    display: flex;
-    gap: 35px;
-    justify-content: center;
-    padding: 10px;
-    margin-top: 7px;
-    align-items: center;
-}
-
-.sec-four-card-tree-txt .fisrturl-url a {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #FC724D;
-    text-decoration: none;
-}
-
-.sec-four-card-tree-txt .fisrturl-icon {
-    padding: 6px;
-    background-color: #26335D;
-    color: #fff;
-    border-radius: 35px;
-    align-items: center;
-}
-
-.sec-four-card-tree-txt .fisrturl-txt {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-}
-
-.sec-four-card-tree-txt .fisrturl-txt h5 {
-    width: 131px;
-    height: 48px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    margin: 5px;
-    margin-left: 15px;
-}
-
-.sec-four-card-tree-txt .fisrturl-txt p {
-    width: 182px;
-    height: 40px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-    color: #737373;
-    margin: 5px;
-    margin-left: 15px;
-}
-
-.sec-four-card-tree-txt .fisrturl-2nd-icon {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 15px;
-    margin: 10px;
-    margin-left: 15px;
-}
-
-.sec-four-card-tree-txt .fisrturl-2nd-icon h6 {
-    width: 57px;
-    height: 24px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #737373;
-}
-
-.sec-four-card-tree-txt .fisrturl-price {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 5px 3px;
-    gap: 15px;
-    width: 108px;
-    height: 34px;
-    padding-left: 15px;
-}
-
-.sec-four-card-tree-txt .fisrturl-price .first-price {
-    width: 52px;
-    height: 24px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #BDBDBD;
-}
-
-.sec-four-card-tree-txt .fisrturl-price .second-price {
-    width: 45px;
-    height: 24px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #0061FF;
-}
-
-.sec-four-card-tree-txt .fisrturl-2nd-url {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px 20px;
-    gap: 15px;
-    width: 142px;
-    height: 44px;
-    border: 1px solid #FC724D;
-    border-radius: 37px;
-    margin: 10px;
-    margin-left: 10px;
-}
-
-.sec-four-card-tree-txt .fisrturl-2nd-url a {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #FC724D;
-}
-
-/*-------------------------sec 4 card 4-----------------------------*/
-.sec-four-card-four {
-    position: relative;
-}
-
-.sec-four-card-four-img {
-    width: 240;
-    height: 300px;
-
-}
-
-.sec-four-card-four-img image {
-    width: 100%;
-}
-
-.sec-four-card .sec-four-card-four .sale {
-    position: absolute;
-    top: 10px;
-    left: 15px;
-    z-index: 1;
-    padding: 7px 11px;
-    color: #fff;
-    background-color: #FC724D;
-    border-radius: 7px;
-}
-
-.sec-four-card .sec-four-card-four .icons {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    position: absolute;
-    gap: 18px;
-    top: 250px;
-    left: 58px;
-    z-index: 1;
-}
-
-.sec-four-card .sec-four-card-four .icons .i-icons {
-    background: #FFFFFF;
-    border-radius: 50px;
-    padding: 6px;
-}
-
-.sec-four-card .sec-four-card-four .sec-four-card-four-txt .fisrturl {
-    display: flex;
-    gap: 35px;
-    justify-content: center;
-    padding: 10px;
-    margin-top: 7px;
-    align-items: center;
-}
-
-.sec-four-card-four-txt .fisrturl-url a {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #FC724D;
-    text-decoration: none;
-}
-
-.sec-four-card-four-txt .fisrturl-icon {
-    padding: 6px;
-    background-color: #26335D;
-    color: #fff;
-    border-radius: 35px;
-    align-items: center;
-}
-
-.sec-four-card-four-txt .fisrturl-txt {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-}
-
-.sec-four-card-four-txt .fisrturl-txt h5 {
-    width: 131px;
-    height: 48px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    margin: 5px;
-    margin-left: 15px;
-}
-
-.sec-four-card-four-txt .fisrturl-txt p {
-    width: 182px;
-    height: 40px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-    color: #737373;
-    margin: 5px;
-    margin-left: 15px;
-}
-
-.sec-four-card-four-txt .fisrturl-2nd-icon {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 15px;
-    margin: 10px;
-    margin-left: 15px;
-}
-
-.sec-four-card-four-txt .fisrturl-2nd-icon h6 {
-    width: 57px;
-    height: 24px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #737373;
-}
-
-.sec-four-card-four-txt .fisrturl-price {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 5px 3px;
-    gap: 15px;
-    width: 108px;
-    height: 34px;
-    padding-left: 15px;
-}
-
-.sec-four-card-four-txt .fisrturl-price .first-price {
-    width: 52px;
-    height: 24px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #BDBDBD;
-}
-
-.sec-four-card-four-txt .fisrturl-price .second-price {
-    width: 45px;
-    height: 24px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #0061FF;
-}
-
-.sec-four-card-four-txt .fisrturl-2nd-url {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px 20px;
-    gap: 15px;
-    width: 142px;
-    height: 44px;
-    border: 1px solid #FC724D;
-    border-radius: 37px;
-    margin: 10px;
-    margin-left: 10px;
-}
-
-.sec-four-card-four-txt .fisrturl-2nd-url a {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #FC724D;
-}
-
-/*----------------------end sec4-----------------*/
+/*----------------------end sec 4-------------------*/
 
 /*----------------------sec 5---------------------*/
 
 .sec-five {
+    width: 100%;
+    
+}
+
+.sec-five-container{
     margin: auto;
+    width: 1400px;
+    height: 700px;
+
 }
 
 .sec-five .sec-five-text {
@@ -1479,11 +1031,13 @@ display: flex;
 .sec-seven-txt {
     text-align: center;
 }
+
 .sec-seven-txt p {
     width: 469px;
     font-size: 14px;
 }
-.box-color {
+
+.sec-seven-container .box-color {
     color: rgb(227, 92, 43);
     line-height: 20px;
     font-size: 16px;
@@ -1495,13 +1049,13 @@ display: flex;
 
 }
 
-.box-position {
+.sec-seven-container .box-position {
     color: #252B42;
     line-height: 70px;
     font-size: 40px;
 }
 
-.box-paragraphe {
+.sec-seven-container .box-paragraphe {
     line-height: 20px;
     letter-spacing: 0.2;
     height: 40px;
@@ -1512,7 +1066,7 @@ display: flex;
 
 }
 
-.sec-seven-form {
+.sec-seven .sec-seven-form {
     width: 700px;
     margin-top: 30px;
     display: flex;
@@ -1527,11 +1081,11 @@ display: flex;
 
 }
 
-form {
+.sec-seven-form form {
     margin-top: 40px;
 }
 
-.search {
+.sec-seven-form .search {
     border: 1px solid #E6E6E6;
     border-radius: 5px 0 0 5px;
     width: 100%;
@@ -1539,7 +1093,7 @@ form {
     padding-left: 10px;
 }
 
-.btn {
+.sec-seven-form .btn {
     position: absolute;
     top: 0;
     right: 0;
@@ -1635,7 +1189,7 @@ footer h5 {
     background-color: #FAFAFA;
 }
 
-.copyright {
+.footer-bottom .copyright {
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -1643,19 +1197,15 @@ footer h5 {
     justify-content: space-between;
 }
 
-.copyright>div {
+.footer-bottom .copyright .fot {
     width: 50%;
 }
 
-.end {
-    /* display: flex; */
-    /* justify-content:end; */
-    /* margin: auto; */
-    /* align-items: center; */
+.footer-bottom .end {
     text-align: center;
 }
 
-.end a {
+.footer-bottom .end a {
     margin-right: 15px;
 }
 
@@ -1664,7 +1214,6 @@ footer h5 {
 }
 
 .fot p {
-
     font-size: 20px;
 }
 
