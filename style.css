@@ -405,6 +405,7 @@ header::after {
     z-index: 1;
     top: 150px;
     right: 221px;
+    cursor: pointer;
 }
 
 
